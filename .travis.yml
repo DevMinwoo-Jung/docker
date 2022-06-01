@@ -24,6 +24,6 @@ after_success: -- after success test
   bucket_name: elasticbeanstalk-us-west-2-066515780521 
   bucket_path:  react_docker_app
   on:
-    branch: master 
+    branch: main 
   access_key_id: $aws_access_key
   secret_access_key: $aws_secret_access_key
